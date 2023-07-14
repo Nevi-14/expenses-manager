@@ -1,27 +1,93 @@
-#container {
-  text-align: center;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
-}
+ion-content{
+  //   --background: #cecece;
+ }
+ ion-grid {
+     height: 100%;
+     width: 100%;
+     margin: 0px;
+     padding: 0px;
+ }
+ 
+ ion-row {
+     height: 100%;
+ }
+ .top ion-toolbar{
+     --background:transparent!important;
+     color: #fff;
+     ion-icon{
+         color: #fff;
+     }
+ 
+ }
+ .swiper-slide, .swiper-pagination {
+     top: -20px! important;
+ }
+ ion-avatar{
+     height: 2.5rem;
+     width: 2.5rem;
+ }
+ strong{
+     font-size: 1.2rem;
+ 
+ }
+ .title{
+     font-size: 2rem;
+ margin-left: 1rem;
+ }
+ ion-content {
+     --background: url('../../assets/bg.jpg') 0 0/100% 100% no-repeat;
+ }
+ ion-slides, ion-slide{
+     height: 100%;
+     --background-color:#fff!important;
+ }
+ .top{
+     color: #fff;
+  background: transparent!important;
+     height: 40%;
+     ion-card{
+         border-radius: 10px;
+         width: 100%;
+         background-color: rgba(0,0,0,0.08);
+         margin: 0 auto;
+         ion-card-content{
+             color: #fff;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             font-size: 2rem;
+         }
+     }
+   
+ }
+ ion-fab-button{
+     height: 2rem;
+     width: 2rem;
+ }
+ .bottom{
+     border-top-right-radius: 30px;
+     border-top-left-radius: 30px;
+     height: 60%;
+     background-color: #fff;
+ }
+ .bottom ion-card{
+     margin: 14px;
+     width: 100%;
+     height: 70%;
+     border-radius: 20px;
+     img{
+         height: 4rem;
+         width: 4rem;
+         display: block;
+         margin: 0 auto;
+         margin-top: 10px;
+     }
+ }
+ .footer {
+     ion-button{
+         --border-radius: 10px;
+     }
+ }
+ 
+ 
